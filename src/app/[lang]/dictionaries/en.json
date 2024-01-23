@@ -1,0 +1,116 @@
+{
+  "title": "Frontend Developer",
+  "tech-skills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "TailwindCSS",
+    "JEST",
+    "Node.js",
+    "Express.js",
+    "Git",
+    "Scrum",
+    "HTML",
+    "CSS",
+    "Python",
+    "SQL",
+    "Firebase",
+    "AWS"
+  ],
+  "computer-skills": ["Windows", "macOS", "Unix", "Hardware entusiast"],
+  "soft-skills": [
+    "Critical thinking",
+    "Creativity",
+    "Teamwork",
+    "Attention to detail",
+    "Eager to Expand Knowledge",
+    "Problem Solving"
+  ],
+  "languages": [
+    {
+      "language": "Polish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "C1"
+    },
+    {
+      "language": "German",
+      "level": "A1"
+    }
+  ],
+  "education": [
+    {
+      "school": "Gdańsk University of Technology",
+      "degree": "Bachelor's degree",
+      "field": "Computer Science applied to Physics",
+      "start": "2017",
+      "end": "2022"
+    },
+    {
+      "school": "Gdańsk University of Technology",
+      "degree": "Master's degree",
+      "field": "Computer Science applied to Physics",
+      "start": "2022",
+      "end": "2024"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Grid Dynamics",
+      "position": "Junior Frontend Developer",
+      "start": "January 2023",
+      "end": "October 2023",
+      "tech": [
+        "React with Redux",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Material UI",
+        "React router",
+        "JEST",
+        "Scrum",
+        "Git",
+        "Figma",
+        "Jira"
+      ]
+    },
+    {
+      "company": "Grid Dynamics",
+      "position": "Frontend Developer Intern",
+      "start": "May 2022",
+      "end": "January 2023",
+      "tech": [
+        "React with Redux",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "TailwindCSS",
+        "JEST",
+        "Scrum",
+        "Git",
+        "Figma",
+        "AWS"
+      ]
+    },
+    {
+      "company": "New Ventures",
+      "position": "Junior Web Developer",
+      "start": "October 2020",
+      "end": "November 2022",
+      "tech": ["JavaScript", "HTML5", "CSS3", "jQuery", "WordPress", "Krpano"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio",
+      "description": "This website",
+      "tech": ["React", "Next.js", "TailwindCSS", "TypeScript", "Figma", "Git"],
+      "link": ""
+    }
+  ]
+}
