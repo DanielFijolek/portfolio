@@ -8,7 +8,7 @@ type Props = {
 };
 const SkilltagContainer = ({ skills, skillType }: Props) => {
   return (
-    <div className="mt-4 flex w-3/4 flex-row flex-wrap justify-center gap-2 gap-y-3">
+    <div className="flex flex-row flex-wrap gap-2 gap-y-3">
       {skills.map((skill) => (
         <Skilltag key={skill} skill={skill} skillType={skillType} />
       ))}

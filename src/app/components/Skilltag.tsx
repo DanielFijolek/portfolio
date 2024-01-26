@@ -8,9 +8,9 @@ type Props = {
 };
 
 const skillColorClass = {
-  soft: "border-teal-400 shadow-teal-400",
-  tech: "border-blue-400 shadow-blue-400 ",
-  computer: "border-orange-400 shadow-orange-400",
+  soft: "border-soft shadow-soft",
+  tech: "border-tech shadow-tech ",
+  computer: "border-computer shadow-computer",
 };
 
 const Skilltag = ({ skillType, skill }: Props) => {
