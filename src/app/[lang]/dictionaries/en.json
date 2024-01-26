@@ -27,20 +27,7 @@
     "Eager to Expand Knowledge",
     "Problem Solving"
   ],
-  "languages": [
-    {
-      "language": "Polish",
-      "level": "Native"
-    },
-    {
-      "language": "English",
-      "level": "C1"
-    },
-    {
-      "language": "German",
-      "level": "A1"
-    }
-  ],
+  "about": "I'm a dedicated Frontend Developer with a strong proficiency in React, backed by 4 years of continuous frontend development experience. My journey into programming began 6 years ago, and I have consistently honed my skills to become a proficient developer. I am passionate about further advancing my expertise in frontend programming, while my curiosity extends to the realm of computer hardware and the latest industry developments.",
   "education": [
     {
       "school": "Gdańsk University of Technology",
@@ -81,7 +68,7 @@
       "company": "Grid Dynamics",
       "position": "Frontend Developer Intern",
       "start": "May 2022",
-      "end": "January 2023",
+      "end": "December 2023",
       "tech": [
         "React with Redux",
         "JavaScript",
@@ -107,10 +94,84 @@
   ],
   "projects": [
     {
-      "name": "Portfolio",
-      "description": "This website",
-      "tech": ["React", "Next.js", "TailwindCSS", "TypeScript", "Figma", "Git"],
-      "link": ""
+      "name": "Portfolio Website",
+      "tech": ["React", "Next.js", "TailwindCSS", "TypeScript", "Git"]
+    },
+    {
+      "name": "Webtail React Boilerplate",
+      "tech": [
+        "Webpack",
+        "Babel",
+        "ESlint",
+        "Prettier",
+        "React",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "link": "https://github.com/DanielFijolek/webtail-react-boilerplate",
+      "desc": [
+        "I created my own React Boilerplate with Webpack and Babel. It's preconfigure with Typescript, TailwindCSS, ESlint and Prettier."
+      ]
+    },
+    {
+      "name": "Exercise Tracker",
+      "tech": ["Node.js", "express", "TypeScript", "SQLite", "RESTFull API"],
+      "link": "https://github.com/DanielFijolek/exercise_tracker",
+      "desc": [
+        "In an effort to expand my backend development skills, I developed an 'Exercise Tracker' application using Node.js, Express, and TypeScript. This project was a learning endeavor aimed at gaining hands-on experience with these technologies.",
+        "The application is built around a RESTful API with data validation. It offers a simple yet functional interface with endpoints to create and retrieve user data, as well as to log and fetch information about user exercises",
+        "Key features of the application include:",
+        "- User Management: Endpoints for creating and retrieving user data",
+        "- Exercise Logging: Functionality to log and retrieve information about user exercises"
+      ]
+    },
+    {
+      "name": "Twitter Clone",
+      "tech": ["React", "TypeScript", "ReactQuery", "Axios", "TailwindCSS"],
+      "link": "https://github.com/DanielFijolek/twitter_clone",
+      "desc": [
+        "The Twitter Clone is a personal project that I initiated as a learning playground to explore and master React Query. This endeavor allowed me to deepen my understanding of modern web development technologies and their practical applications. Key details of the project include:",
+        "- Utilizing a robust stack comprising React, TypeScript, React Query, Axios, and TailwindCSS, I aimed to build a robust and responsive web application that mirrors the functionalities of the popular social media platform",
+        "- The project encompasses user-friendly features such as the ability to create user accounts and log in securely"
+      ]
+    },
+    {
+      "name": "Smart sprout cultivation system",
+      "tech": [
+        "React",
+        "Javascript",
+        "React",
+        "Router",
+        "JavaScript",
+        "CSS3",
+        "Firebase",
+        "Scrum"
+      ],
+      "link": "https://github.com/DanielFijolek/smart_sprout_cultivation",
+      "desc": [
+        "As part of my thesis, I developed a web application to control an intelligent sprout cultivation system. This project, commissioned by Nlightnin Production company, was built using React and a Firebase database.",
+        "The application, designed with React, React Router, JavaScript, and CSS3, provides a userfriendly interface for managing the cultivation system. It's organized into three distinctsections:",
+        "- Control Tab: Enables users to manage components like LEDs, water pumps, and fans.",
+        "- Measurement Display Tab: Displays real-time measurements such as humidity, temperature, noise levels, and soil weight.",
+        "- Graphical Representation Tab: Allows users to visualize data through graphs, selecting specific sensors and time ranges for analysis.",
+        "The project was managed using the Scrum methodology, ensuring clear communication and timely deliveries"
+      ]
+    },
+    {
+      "name": "Diet controling web application",
+      "tech": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node.JS",
+        "Express.JS",
+        " MySQL"
+      ],
+      "link": "https://github.com/DanielFijolek/diet_web_application",
+      "desc": [
+        "Leveraging vanilla JavaScript on the frontend and Node.js with Express.js on the backend, I created a seamless connection between the user interface and the server, ensuring smooth data flow",
+        "The application featured a secure administrator panel with login capabilities. Administrators could efficiently manage user accounts, ensuring data integrity andsecurity"
+      ]
     }
   ]
 }
