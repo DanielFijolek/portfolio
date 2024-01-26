@@ -26,14 +26,9 @@ export default function RootLayout({
   return (
     <html lang={lang}>
       <body
-        className={`${inter.className} flex min-h-screen flex-col items-center`}
+        className={`${inter.className} mx-6 flex flex-col items-center gap-2 lg:flex-row`}
       >
-        <header className="flex w-3/4 flex-row justify-end">
-          <LanguageSwitch currentLang={lang} />
-        </header>
-        <main className="m-2 flex  w-3/4 flex-col  items-center gap-2">
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   );
