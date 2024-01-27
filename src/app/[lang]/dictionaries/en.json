@@ -74,7 +74,7 @@
       "company": "Grid Dynamics",
       "position": "Frontend Developer Intern",
       "start": "May 2022",
-      "end": "December 2023",
+      "end": "December 2022",
       "tech": [
         "React with Redux",
         "JavaScript",
@@ -116,7 +116,7 @@
       ],
       "link": "https://github.com/DanielFijolek/webtail-react-boilerplate",
       "desc": [
-        "I created my own React Boilerplate with Webpack and Babel. It's preconfigure with Typescript, TailwindCSS, ESlint and Prettier."
+        "I created my own React Boilerplate with Webpack and Babel. It's preconfigured with Typescript, TailwindCSS, ESlint and Prettier."
       ]
     },
     {
