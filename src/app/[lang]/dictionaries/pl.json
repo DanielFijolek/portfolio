@@ -1,4 +1,10 @@
 {
+  "tabsName": {
+    "skills": "Umiejętności",
+    "education": "Edukacja",
+    "exercises": "Doświadczenie",
+    "projects": "Projekty"
+  },
   "title": "Programista Frontend",
   "tech-skills": [
     "TypeScript",
@@ -18,28 +24,33 @@
     "Firebase",
     "AWS"
   ],
-  "computer-skills": ["Windows", "macOS", "Unix", "Hardware entusiast"],
-  "soft-skills": [
-    "Critical thinking",
-    "Creativity",
-    "Teamwork",
-    "Attention to detail",
-    "Eager to Expand Knowledge",
-    "Problem Solving"
+  "computer-skills": [
+    "Windows",
+    "macOS",
+    "Unix",
+    "Pasjonat sprzętu komputerowego"
   ],
-  "about": "I'm a dedicated Frontend Developer with a strong proficiency in React, backed by 4 years of continuous frontend development experience. My journey into programming began 6 years ago, and I have consistently honed my skills to become a proficient developer. I am passionate about further advancing my expertise in frontend programming, while my curiosity extends to the realm of computer hardware and the latest industry developments.",
+  "soft-skills": [
+    "Krytyczne myślenie",
+    "Kreatywność",
+    "Praca zespołowa",
+    "Dbałość o szczegóły",
+    "Chęć poszerzania wiedzy",
+    "Rozwiązywanie problemów"
+  ],
+  "about": "Jestem zaangażowanym Frontend Developerem z silną biegłością w React, popartą 4-letnim doświadczeniem w ciągłym rozwoju frontendowym. Moja przygoda z programowaniem rozpoczęła się 6 lat temu i konsekwentnie doskonaliłem swoje umiejętności, aby stać się biegłym programistą. Jestem pasjonatem dalszego pogłębiania mojej wiedzy w zakresie programowania frontendowego, a moja ciekawość rozciąga się na sferę sprzętu komputerowego i najnowszych osiągnięć w branży",
   "education": [
     {
-      "school": "Gdańsk University of Technology",
-      "degree": "Bachelor's degree",
-      "field": "Computer Science applied to Physics",
+      "school": "Politechnika Gdańska",
+      "degree": "Inżynier",
+      "field": "Informatyka stosowana w fizyce",
       "start": "2017",
       "end": "2022"
     },
     {
-      "school": "Gdańsk University of Technology",
-      "degree": "Master's degree",
-      "field": "Computer Science applied to Physics",
+      "school": "Politechnika Gdańska",
+      "degree": "Magister",
+      "field": "Informatyka stosowana w fizyce",
       "start": "2022",
       "end": "2024"
     }
@@ -110,7 +121,7 @@
       ],
       "link": "https://github.com/DanielFijolek/webtail-react-boilerplate",
       "desc": [
-        "I created my own React Boilerplate with Webpack and Babel. It's preconfigure with Typescript, TailwindCSS, ESlint and Prettier."
+        "Stworzyłem własny React Boilerplate z Webpack i Babel. Jest wstępnie skonfigurowany z Typescript, TailwindCSS, ESlint i Prettier."
       ]
     },
     {
@@ -118,11 +129,11 @@
       "tech": ["Node.js", "express", "TypeScript", "SQLite", "RESTFull API"],
       "link": "https://github.com/DanielFijolek/exercise_tracker",
       "desc": [
-        "In an effort to expand my backend development skills, I developed an 'Exercise Tracker' application using Node.js, Express, and TypeScript. This project was a learning endeavor aimed at gaining hands-on experience with these technologies.",
-        "The application is built around a RESTful API with data validation. It offers a simple yet functional interface with endpoints to create and retrieve user data, as well as to log and fetch information about user exercises",
-        "Key features of the application include:",
-        "- User Management: Endpoints for creating and retrieving user data",
-        "- Exercise Logging: Functionality to log and retrieve information about user exercises"
+        "Starając się poszerzyć swoje umiejętności w zakresie tworzenia backendu, opracowałem aplikację 'Exercise Tracker' przy użyciu Node.js, Express i TypeScript. Projekt ten był przedsięwzięciem edukacyjnym mającym na celu zdobycie praktycznego doświadczenia z tymi technologiami",
+        "Aplikacja jest zbudowana wokół RESTful API z walidacją danych. Oferuje prosty, ale funkcjonalny interfejs z punktami końcowymi do tworzenia i pobierania danych użytkownika, a także do rejestrowania i pobierania informacji o ćwiczeniach użytkownika",
+        "Kluczowe funkcje aplikacji obejmują:",
+        "- Zarządzanie użytkownikami: Punkty końcowe do tworzenia i pobierania danych użytkownika",
+        "- Rejestrowanie ćwiczeń: Funkcjonalność rejestrowania i pobierania informacji o ćwiczeniach użytkownika"
       ]
     },
     {
@@ -130,9 +141,9 @@
       "tech": ["React", "TypeScript", "ReactQuery", "Axios", "TailwindCSS"],
       "link": "https://github.com/DanielFijolek/twitter_clone",
       "desc": [
-        "The Twitter Clone is a personal project that I initiated as a learning playground to explore and master React Query. This endeavor allowed me to deepen my understanding of modern web development technologies and their practical applications. Key details of the project include:",
-        "- Utilizing a robust stack comprising React, TypeScript, React Query, Axios, and TailwindCSS, I aimed to build a robust and responsive web application that mirrors the functionalities of the popular social media platform",
-        "- The project encompasses user-friendly features such as the ability to create user accounts and log in securely"
+        "Twitter Clone to osobisty projekt, który zainicjowałem jako plac zabaw do nauki, aby poznać i opanować React Query. To zadanie pozwoliło mi pogłębić moje zrozumienie nowoczesnych technologii tworzenia stron internetowych i ich praktycznych zastosowań. Kluczowe szczegóły projektu obejmują:",
+        "- Wykorzystując stos technologii składający się z React, TypeScript, React Query, Axios i TailwindCSS, miałem na celu zbudowanie responsywnej aplikacji internetowej, która odzwierciedla funkcjonalności popularnej platformy mediów społecznościowych",
+        "- Projekt obejmuje przyjazne dla użytkownika funkcje, takie jak możliwość tworzenia kont użytkowników i bezpiecznego logowania"
       ]
     },
     {
@@ -149,12 +160,12 @@
       ],
       "link": "https://github.com/DanielFijolek/smart_sprout_cultivation",
       "desc": [
-        "As part of my thesis, I developed a web application to control an intelligent sprout cultivation system. This project, commissioned by Nlightnin Production company, was built using React and a Firebase database.",
-        "The application, designed with React, React Router, JavaScript, and CSS3, provides a userfriendly interface for managing the cultivation system. It's organized into three distinctsections:",
-        "- Control Tab: Enables users to manage components like LEDs, water pumps, and fans.",
-        "- Measurement Display Tab: Displays real-time measurements such as humidity, temperature, noise levels, and soil weight.",
-        "- Graphical Representation Tab: Allows users to visualize data through graphs, selecting specific sensors and time ranges for analysis.",
-        "The project was managed using the Scrum methodology, ensuring clear communication and timely deliveries"
+        "W ramach mojej pracy dyplomowej opracowałem aplikację internetową do sterowania inteligentnym systemem uprawy kiełków. Projekt ten, zlecony przez firmę Nlightnin Production, został zbudowany przy użyciu React i bazy danych Firebase.",
+        "Aplikacja, zaprojektowana przy użyciu React, React Router, JavaScript i CSS3, zapewnia przyjazny dla użytkownika interfejs do zarządzania systemem uprawy. Jest ona podzielona na trzy odrębne sekcje:",
+        "- Zakładka Control: Umożliwia użytkownikom zarządzanie komponentami, takimi jak diody LED, pompy wodne i wentylatory.",
+        "- Zakładka wyświetlania pomiarów: Wyświetla pomiary w czasie rzeczywistym, takie jak wilgotność, temperatura, poziom hałasu i waga gleby.",
+        "- Zakładka Graphical Representation: Umożliwia użytkownikom wizualizację danych za pomocą wykresów, wybierając określone czujniki i zakresy czasowe do analizy.",
+        "Projekt był zarządzany przy użyciu metodologii Scrum, zapewniając jasną komunikację i terminowe dostawy."
       ]
     },
     {
@@ -169,8 +180,8 @@
       ],
       "link": "https://github.com/DanielFijolek/diet_web_application",
       "desc": [
-        "Leveraging vanilla JavaScript on the frontend and Node.js with Express.js on the backend, I created a seamless connection between the user interface and the server, ensuring smooth data flow",
-        "The application featured a secure administrator panel with login capabilities. Administrators could efficiently manage user accounts, ensuring data integrity andsecurity"
+        "Wykorzystując waniliowy JavaScript na frontendzie i Node.js z Express.js na zapleczu, stworzyłem płynne połączenie między interfejsem użytkownika a serwerem, zapewniając płynny przepływ danych",
+        "Aplikacja zawierała bezpieczny panel administratora z możliwością logowania. Administratorzy mogli efektywnie zarządzać kontami użytkowników, zapewniając integralność i bezpieczeństwo danych."
       ]
     }
   ]

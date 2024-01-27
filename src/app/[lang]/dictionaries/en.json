@@ -1,4 +1,10 @@
 {
+  "tabsName": {
+    "skills": "Skills",
+    "education": "Education",
+    "exercises": "Experience",
+    "projects": "Projects"
+  },
   "title": "Frontend Developer",
   "tech-skills": [
     "TypeScript",
