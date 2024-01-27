@@ -13,7 +13,7 @@ const ProjectsTab = async ({ lang }: Props) => {
   const dict = await getDictionary(lang);
 
   return (
-    <TabContainer tabName="Projects">
+    <TabContainer tabName={dict.tabsName.projects}>
       {dict.projects.map((element, idx) => (
         <a
           href={element.link}

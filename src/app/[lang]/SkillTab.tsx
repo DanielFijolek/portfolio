@@ -11,7 +11,7 @@ const SkillTab = async ({ lang }: Props) => {
   const dict = await getDictionary(lang);
 
   return (
-    <TabContainer tabName="Skills">
+    <TabContainer tabName={dict.tabsName.skills}>
       <SkilltagContainer skills={dict["tech-skills"]} skillType="tech" />
       <SkilltagContainer
         skills={dict["computer-skills"]}
