@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang={lang}>
       <body
-        className={`${inter.className} mx-6 flex flex-col items-center gap-2 lg:flex-row`}
+        className={`${inter.className} mx-3 flex flex-col items-center gap-2 lg:mx-6 lg:flex-row`}
       >
         {children}
       </body>

@@ -14,7 +14,7 @@ const Header = async ({ lang }: Props) => {
     <header className="mt-10 flex flex-col items-center justify-center lg:mt-0 lg:w-1/2 ">
       <h1 className="text-center text-4xl font-bold">Daniel Fijołek</h1>
       <p className="mt-2 text-center text-lg text-secondary">{dict.title}</p>
-      <div className="mt-6 w-[80%]">
+      <div className="mt-6 lg:w-[80%]">
         <p className=" text-center text-base">{dict.about}</p>
         <div className="mt-10 hidden flex-col gap-3 pl-4 lg:flex">
           {tabNames.map((tabName) => (

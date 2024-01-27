@@ -14,7 +14,7 @@ const ExperienceTab = async ({ lang }: Props) => {
     <TabContainer tabName={dict.tabsName.experience}>
       {dict.experience.map((element, idx) => (
         <div
-          className="mt-6 flex flex-col gap-y-3 rounded-md p-4 transition-all duration-300 hover:bg-violet-800/20 hover:drop-shadow-glow focus:bg-violet-800/20 focus:outline-none focus:drop-shadow-glow"
+          className="mt-6 flex flex-col gap-y-3 rounded-md p-4 transition-all duration-300 hover:bg-violet-800/20 hover:drop-shadow-glow focus:bg-violet-800/20 focus:outline-none focus:drop-shadow-glow max-lg:bg-violet-900/10 max-lg:drop-shadow-glow"
           key={idx}
         >
           <p className="text-base">{element.position}</p>

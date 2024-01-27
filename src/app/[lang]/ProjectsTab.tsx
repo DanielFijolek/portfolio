@@ -17,7 +17,7 @@ const ProjectsTab = async ({ lang }: Props) => {
       {dict.projects.map((element, idx) => (
         <a
           href={element.link}
-          className="group flex flex-col gap-y-4 rounded-md p-4 transition-all duration-300 hover:bg-violet-800/20 hover:drop-shadow-glow focus:bg-violet-800/20 focus:outline-none focus:drop-shadow-glow"
+          className="group flex flex-col gap-y-4 rounded-md p-4 transition-all duration-300 hover:bg-violet-800/20 hover:drop-shadow-glow focus:bg-violet-800/20 focus:outline-none focus:drop-shadow-glow max-lg:bg-violet-900/10 max-lg:drop-shadow-glow"
           key={idx}
           target="_blank"
         >
