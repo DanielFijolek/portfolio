@@ -15,7 +15,7 @@ const LanguageSwitch = ({ currentLang }: Props) => {
       {languages.map((lang) => (
         <Link
           className={`m-auto border-violet-800 px-2 text-center lg:m-0 lg:px-0 lg:py-2 ${currentLang === lang ? "text-secondary" : null}`}
-          href={`/${lang === "en" && env === "production" ? null : lang}`}
+          href={`/${lang === "en" && env === "production" ? "" : lang}`}
           locale={lang}
           key={lang}
         >
