@@ -77,6 +77,8 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Rename en.html to index.html
         run: mv out/en.html out/index.html
+      - name: Rename en.txt to index.txt
+        run: mv out/en.txt out/index.txt
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
