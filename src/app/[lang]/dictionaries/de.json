@@ -1,3 +1,183 @@
 {
-  "title": "Frontend Entwickler"
+  "tabsName": {
+    "skills": "Fähigkeiten",
+    "education": "Ausbildung",
+    "experience": "Erfahrung",
+    "projects": "Projekte"
+  },
+  "title": "Frontend Entwickler",
+  "tech-skills": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "TailwindCSS",
+    "JEST",
+    "Node.js",
+    "Express.js",
+    "Git",
+    "Scrum",
+    "HTML",
+    "CSS",
+    "Python",
+    "SQL",
+    "Firebase",
+    "AWS"
+  ],
+  "computer-skills": ["Windows", "macOS", "Unix", "Hardware-Enthusiast"],
+  "soft-skills": [
+    "Kritisches Denken",
+    "Kreativität",
+    "Teamarbeit",
+    "Liebe zum Detail",
+    "Eifer, Wissen zu erweitern",
+    "Problemlösung"
+  ],
+  "about": "Ich bin ein engagierter Frontend-Entwickler mit guten Kenntnissen in React, der auf 4 Jahre Erfahrung in der Frontend-Entwicklung zurückgreifen kann. Meine Reise in die Programmierung begann vor 6 Jahren, und ich habe meine Fähigkeiten konsequent verfeinert, um ein kompetenter Entwickler zu werden. Ich bin leidenschaftlich daran interessiert, meine Expertise in der Frontend-Programmierung weiter auszubauen, während sich meine Neugier auf den Bereich der Computer-Hardware und die neuesten Entwicklungen in der Branche erstreckt.",
+  "education": [
+    {
+      "school": "Technische Universität Gdańsk",
+      "degree": "Bachelor-Abschluss",
+      "field": "Informatik angewandt auf Physik",
+      "start": "2017",
+      "end": "2022"
+    },
+    {
+      "school": "Technische Universität Gdańsk",
+      "degree": "Master-Abschluss",
+      "field": "Informatik angewandt auf Physik",
+      "start": "2022",
+      "end": "2024"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Grid Dynamics",
+      "position": "Junior Frontend-Entwickler",
+      "start": "Januar 2023",
+      "end": "Oktober 2023",
+      "tech": [
+        "React mit Redux",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Material UI",
+        "React router",
+        "JEST",
+        "Scrum",
+        "Git",
+        "Figma",
+        "Jira"
+      ]
+    },
+    {
+      "company": "Grid Dynamics",
+      "position": "Praktikant Frontend-Entwickler",
+      "start": "Mai 2022",
+      "end": "Dezember 2023",
+      "tech": [
+        "React mit Redux",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "TailwindCSS",
+        "JEST",
+        "Scrum",
+        "Git",
+        "Figma",
+        "AWS"
+      ]
+    },
+    {
+      "company": "New Ventures",
+      "position": "Junior Web-Entwickler",
+      "start": "October 2020",
+      "end": "November 2022",
+      "tech": ["JavaScript", "HTML5", "CSS3", "jQuery", "WordPress", "Krpano"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "tech": ["React", "Next.js", "TailwindCSS", "TypeScript", "Git"]
+    },
+    {
+      "name": "Webtail React Boilerplate",
+      "tech": [
+        "Webpack",
+        "Babel",
+        "ESlint",
+        "Prettier",
+        "React",
+        "TypeScript",
+        "TailwindCSS"
+      ],
+      "link": "https://github.com/DanielFijolek/webtail-react-boilerplate",
+      "desc": [
+        "Ich habe meine eigene React Boilerplate mit Webpack und Babel erstellt. Es ist vorkonfiguriert mit Typescript, TailwindCSS, ESlint und Prettier."
+      ]
+    },
+    {
+      "name": "Exercise Tracker",
+      "tech": ["Node.js", "express", "TypeScript", "SQLite", "RESTFull API"],
+      "link": "https://github.com/DanielFijolek/exercise_tracker",
+      "desc": [
+        "Um meine Backend-Entwicklungsfähigkeiten zu erweitern, habe ich eine 'Exercise Tracker'-Anwendung mit Node.js, Express und TypeScript entwickelt. Dieses Projekt war ein Lernprojekt mit dem Ziel, praktische Erfahrungen mit diesen Technologien zu sammeln.",
+        "Die Anwendung ist um eine RESTful API mit Datenvalidierung herum aufgebaut. Sie bietet eine einfache, aber funktionale Schnittstelle mit Endpunkten zum Erstellen und Abrufen von Benutzerdaten sowie zum Protokollieren und Abrufen von Informationen über Benutzerübungen",
+        "Die wichtigsten Funktionen der Anwendung sind:",
+        "- Benutzerverwaltung: Endpunkte zum Erstellen und Abrufen von Benutzerdaten",
+        "- Übungsprotokollierung: Funktionalität zum Protokollieren und Abrufen von Informationen über Benutzerübungen"
+      ]
+    },
+    {
+      "name": "Twitter-Klon",
+      "tech": ["React", "TypeScript", "ReactQuery", "Axios", "TailwindCSS"],
+      "link": "https://github.com/DanielFijolek/twitter_clone",
+      "desc": [
+        "Der Twitter-Clone ist ein persönliches Projekt, das ich als Lernspielplatz initiiert habe, um React Query zu erforschen und zu beherrschen. Dieses Vorhaben ermöglichte es mir, mein Verständnis für moderne Webentwicklungstechnologien und ihre praktischen Anwendungen zu vertiefen. Die wichtigsten Details des Projekts sind:",
+        "- Mit Hilfe eines robusten Stacks aus React, TypeScript, React Query, Axios und TailwindCSS wollte ich eine robuste und reaktionsschnelle Webanwendung erstellen, die die Funktionalitäten der beliebten Social-Media-Plattform widerspiegelt",
+        "- Das Projekt umfasst benutzerfreundliche Funktionen wie die Möglichkeit, Benutzerkonten zu erstellen und sich sicher anzumelden."
+      ]
+    },
+    {
+      "name": "Intelligentes Sprossenanbausystem",
+      "tech": [
+        "React",
+        "Javascript",
+        "React",
+        "Router",
+        "JavaScript",
+        "CSS3",
+        "Firebase",
+        "Scrum"
+      ],
+      "link": "https://github.com/DanielFijolek/smart_sprout_cultivation",
+      "desc": [
+        "Im Rahmen meiner Diplomarbeit habe ich eine Webanwendung zur Steuerung eines intelligenten Sprossenzuchtsystems entwickelt. Dieses Projekt, das von der Firma Nlightnin Production in Auftrag gegeben wurde, wurde mit React und einer Firebase-Datenbank erstellt.",
+        "Die Anwendung, die mit React, React Router, JavaScript und CSS3 entwickelt wurde, bietet eine benutzerfreundliche Schnittstelle zur Verwaltung des Anbausystems. Sie ist in drei verschiedene Abschnitte unterteilt:",
+        "- Registerkarte Steuerung: Ermöglicht dem Benutzer die Verwaltung von Komponenten wie LEDs, Wasserpumpen und Ventilatoren.",
+        "- Registerkarte Messwertanzeige: Zeigt Echtzeitmessungen wie Luftfeuchtigkeit, Temperatur, Geräuschpegel und Bodengewicht an.",
+        "- Registerkarte 'Grafische Darstellung': Ermöglicht die Visualisierung von Daten in Form von Diagrammen und die Auswahl bestimmter Sensoren und Zeitbereiche für die Analyse.",
+        "Das Projekt wurde nach der Scrum-Methode verwaltet, um eine klare Kommunikation und rechtzeitige Lieferungen zu gewährleisten."
+      ]
+    },
+    {
+      "name": "Webanwendung zur Diätkontrolle",
+      "tech": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Node.JS",
+        "Express.JS",
+        " MySQL"
+      ],
+      "link": "https://github.com/DanielFijolek/diet_web_application",
+      "desc": [
+        "Durch den Einsatz von Vanilla JavaScript im Frontend und Node.js mit Express.js im Backend habe ich eine nahtlose Verbindung zwischen der Benutzeroberfläche und dem Server geschaffen, um einen reibungslosen Datenfluss zu gewährleisten",
+        "Die Anwendung verfügte über ein sicheres Administrator-Panel mit Login-Möglichkeiten. Die Administratoren konnten die Benutzerkonten effizient verwalten und die Datenintegrität und -sicherheit gewährleisten."
+      ]
+    }
+  ]
 }

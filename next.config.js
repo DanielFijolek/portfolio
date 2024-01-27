@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  assetPrefix: "https://www.danielfijolek.com/",
-};
+
+const env = process.env.NODE_ENV;
+
+const nextConfig =
+  env === "development"
+    ? {}
+    : {
+        output: "export",
+        assetPrefix: "https://www.danielfijolek.com/",
+      };
 
 module.exports = nextConfig;
