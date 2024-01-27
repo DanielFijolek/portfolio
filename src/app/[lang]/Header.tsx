@@ -5,10 +5,11 @@ type Props = {
   lang: Locale;
 };
 
-const tabNames = ["Skills", "Education", "Experience", "Projects"] as const;
-
 const Header = async ({ lang }: Props) => {
   const dict = await getDictionary(lang);
+
+  const tabNames: string[] = Object.values(dict.tabsName) as string[];
+  console.log(tabNames);
 
   return (
     <header className="mt-10 flex flex-col items-center justify-center lg:mt-0 lg:w-1/2 ">
