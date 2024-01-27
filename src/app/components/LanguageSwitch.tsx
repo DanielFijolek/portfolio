@@ -1,5 +1,4 @@
 import React from "react";
-import { languages } from "../[lang]/layout";
 import Link from "next/link";
 
 type Props = {
@@ -7,6 +6,8 @@ type Props = {
 };
 
 const env = process.env.NODE_ENV;
+
+const languages = ["en", "de", "pl"] as const;
 
 const LanguageSwitch = ({ currentLang }: Props) => {
   return (

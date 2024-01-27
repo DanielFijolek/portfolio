@@ -1,11 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import LanguageSwitch from "../components/LanguageSwitch";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export const languages = ["en", "de", "pl"] as const;
 
 export const metadata: Metadata = {
   title: "Daniel Fijołek Portfolio",
@@ -13,7 +10,7 @@ export const metadata: Metadata = {
 };
 
 export async function generateStaticParams() {
-  return languages.map((lang) => ({ params: { lang } }));
+  return [{ lang: "en" }, { lang: "de" }, { lang: "pl" }];
 }
 
 export default function RootLayout({
