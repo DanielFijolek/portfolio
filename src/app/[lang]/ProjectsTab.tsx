@@ -19,6 +19,7 @@ const ProjectsTab = async ({ lang }: Props) => {
           href={element.link}
           className="group flex flex-col gap-y-4 rounded-md p-4 transition-all duration-300 hover:bg-violet-800/20 hover:drop-shadow-glow focus:bg-violet-800/20 focus:outline-none focus:drop-shadow-glow"
           key={idx}
+          target="_blank"
         >
           <div className="flex flex-row gap-x-4 align-middle">
             <p className="text-lg">{element.name}</p>

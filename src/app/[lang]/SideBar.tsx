@@ -13,7 +13,7 @@ const SideBar = ({ lang }: Props) => {
   return (
     <div className="mt-6 flex flex-row justify-center gap-8 align-middle lg:mt-0 lg:flex-col ">
       <LanguageSwitch currentLang={lang} />
-      <a href="https://github.com/DanielFijolek">
+      <a href="https://github.com/DanielFijolek" target="_blank">
         <Image
           src={githubSvg}
           alt="Link to my github profile"
@@ -21,7 +21,7 @@ const SideBar = ({ lang }: Props) => {
           height={40}
         />
       </a>
-      <a href="https://www.linkedin.com/in/danielfijolek/">
+      <a href="https://www.linkedin.com/in/danielfijolek/" target="_blank">
         <Image
           src={linkedinSvg}
           alt="Link to my Linkedin profile"
