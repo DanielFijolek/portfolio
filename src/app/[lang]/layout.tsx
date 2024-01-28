@@ -22,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang={lang}>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${inter.className} no-scrollbar mx-3 flex flex-col items-center gap-2 overflow-auto lg:mx-6 lg:flex-row lg:overflow-hidden`}
       >
