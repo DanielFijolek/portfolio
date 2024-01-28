@@ -8,7 +8,7 @@
   }
   .no-scrollbar {
     -ms-overflow-style: none;
-    scrollbar-width: none; 
+    scrollbar-width: none;
   }
 }
 
@@ -16,6 +16,7 @@
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 15, 5, 20;
   --background-end-rgb: 15, 5, 60;
+  --background-end-mobile-rgb: 5, 5, 30;
 }
 
 body {
@@ -26,4 +27,15 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+@media (max-width: 1024px) {
+  body {
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-mobile-rgb))
+      )
+      rgb(var(--background-start-rgb));
+  }
 }
