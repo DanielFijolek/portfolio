@@ -17,7 +17,7 @@ export default async function Home({ params: { lang } }: Props) {
     <>
       <SideBar lang={lang} />
       <Header lang={lang} />
-      <main className="no-scrollbar flex max-h-screen scroll-pt-6 flex-col gap-14 overflow-auto scroll-smooth py-6 lg:w-1/2 lg:pr-4">
+      <main className="lg:no-scrollbar flex scroll-pt-6 flex-col gap-14 py-6 lg:max-h-screen lg:w-1/2 lg:overflow-auto lg:scroll-smooth lg:pr-4">
         <SkillTab lang={lang} />
         <EducationTab lang={lang} />
         <ExperienceTab lang={lang} />
