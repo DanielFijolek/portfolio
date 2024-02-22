@@ -1,7 +1,7 @@
 import React from "react";
 import TabContainer from "./TabContainer";
-import SkilltagContainer from "../components/SkilltagContainer";
-import { getDictionary, Locale } from "./dictionaries";
+import SkilltagContainer from "../common/SkilltagContainer";
+import { getDictionary, Locale } from "../../utils/dictionaries";
 
 type Props = {
   lang: Locale;

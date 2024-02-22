@@ -1,5 +1,5 @@
 import React from "react";
-import TabSeperator from "../components/TabSeperator";
+import TabSeperator from "../common/TabSeperator";
 
 type Props = {
   children: React.ReactNode;

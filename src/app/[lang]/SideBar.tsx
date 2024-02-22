@@ -2,8 +2,8 @@ import React from "react";
 import githubSvg from "../../../public/images/github.svg";
 import linkedinSvg from "../../../public/images/linkedin.svg";
 import Image from "next/image";
-import LanguageSwitch from "../components/LanguageSwitch";
-import { Locale } from "./dictionaries";
+import LanguageSwitch from "../components/common/LanguageSwitch";
+import { Locale } from "../utils/dictionaries";
 
 type Props = {
   lang: Locale;

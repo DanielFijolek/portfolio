@@ -1,5 +1,5 @@
 import React from "react";
-import { getDictionary, Locale } from "./dictionaries";
+import { getDictionary, Locale } from "../utils/dictionaries";
 
 type Props = {
   lang: Locale;

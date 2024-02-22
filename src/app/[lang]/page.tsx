@@ -1,9 +1,9 @@
-import { Locale } from "./dictionaries";
+import { Locale } from "../utils/dictionaries";
 import Header from "./Header";
-import SkillTab from "./SkillTab";
-import EducationTab from "./EducationTab";
-import ExperienceTab from "./ExperienceTab";
-import ProjectsTab from "./ProjectsTab";
+import SkillTab from "../components/Tabs/SkillTab";
+import EducationTab from "../components/Tabs/EducationTab";
+import ExperienceTab from "../components/Tabs/ExperienceTab";
+import ProjectsTab from "../components/Tabs/ProjectsTab";
 import SideBar from "./SideBar";
 
 type Props = {
