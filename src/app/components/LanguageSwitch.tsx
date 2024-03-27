@@ -13,7 +13,7 @@ const LanguageSwitch = ({ currentLang }: Props) => {
     <div className="flex w-10 flex-col divide-y-2 rounded-md border-2 border-violet-800 bg-slate-900 drop-shadow-glow">
       {languages.map((lang) => (
         <Link
-          className={`flex flex-row justify-center border-violet-800   py-1 ${currentLang === lang ? "text-secondary" : null}`}
+          className={`flex flex-row justify-center border-violet-700   py-1 ${currentLang === lang ? "text-secondary" : null}`}
           href={`/${lang === "en" && env === "production" ? null : lang}`}
           locale={lang}
           key={lang}
