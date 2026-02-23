@@ -7,12 +7,18 @@ import ProjectsTab from "../components/Tabs/ProjectsTab";
 import SideBar from "./SideBar";
 
 type Props = {
-  params: {
+  params: Promise<{
     lang: Locale;
-  };
+  }>;
 };
 
-export default async function Home({ params: { lang } }: Props) {
+export default async function Home(props: Props) {
+  const params = await props.params;
+
+  const {
+    lang
+  } = params;
+
   return (
     <>
       <SideBar lang={lang} />
