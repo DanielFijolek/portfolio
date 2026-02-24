@@ -1,6 +1,4 @@
-import React from "react";
-import Skilltag from "./Skilltag";
-import { skillsArray } from "./Skilltag";
+import Skilltag, { skillsArray } from "./Skilltag";
 
 type Props = {
   skills: string[];

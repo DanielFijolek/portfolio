@@ -1,4 +1,4 @@
-import { Locale } from "../utils/dictionaries";
+import type { Locale } from "../utils/dictionaries";
 import Header from "./Header";
 import SkillTab from "../components/Tabs/SkillTab";
 import EducationTab from "../components/Tabs/EducationTab";
@@ -15,9 +15,7 @@ type Props = {
 export default async function Home(props: Props) {
   const params = await props.params;
 
-  const {
-    lang
-  } = params;
+  const { lang } = params;
 
   return (
     <>

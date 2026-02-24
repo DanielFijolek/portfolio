@@ -1,4 +1,3 @@
-import React from "react";
 import TabSeperator from "../common/TabSeperator";
 
 type Props = {

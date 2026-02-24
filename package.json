@@ -3,30 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."
   },
   "dependencies": {
-    "next": "15.5.12",
-    "next-intl": "^3.4.4",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "@formatjs/intl-localematcher": "^0.8.1",
+    "negotiator": "^1.0.0",
+    "next": "^16.2.0-canary.59",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@types/json5": "^2.2.0",
     "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
     "autoprefixer": "^10.0.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.12",
+    "eslint": "^9.39.3",
+    "eslint-config-next": "^16.1.6",
+    "json5": "^2.2.3",
     "postcss": "^8",
     "prettier": "^3.2.4",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   },
   "overrides": {
     "@types/react": "19.2.14",

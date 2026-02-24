@@ -1,6 +1,5 @@
-import React from "react";
 import TabContainer from "./TabContainer";
-import { getDictionary, Locale } from "../../utils/dictionaries";
+import { getDictionary, type Locale } from "../../utils/dictionaries";
 
 type Props = {
   lang: Locale;

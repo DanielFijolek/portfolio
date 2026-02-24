@@ -1,5 +1,3 @@
-import React from "react";
-
 export const skillsArray = ["soft", "tech", "computer"] as const;
 
 type Props = {
