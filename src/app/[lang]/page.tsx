@@ -21,7 +21,7 @@ export default async function Home(props: Props) {
     <>
       <SideBar lang={lang} />
       <Header lang={lang} />
-      <main className="lg:no-scrollbar flex scroll-pt-6 flex-col gap-14 py-6 lg:max-h-screen lg:w-1/2 lg:overflow-auto lg:scroll-smooth lg:pr-4">
+      <main className="lg:no-scrollbar flex scroll-pt-6 flex-col gap-14 py-6 lg:max-h-screen lg:w-1/2 lg:overflow-auto lg:scroll-smooth lg:px-2">
         <SkillTab lang={lang} />
         <EducationTab lang={lang} />
         <ExperienceTab lang={lang} />

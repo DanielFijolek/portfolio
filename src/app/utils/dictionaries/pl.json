@@ -5,24 +5,24 @@
     "experience": "Doświadczenie",
     "projects": "Projekty"
   },
-  "title": "Programista Frontend",
+  "title": "Lead Frontend Developer",
   "tech-skills": [
     "TypeScript",
     "JavaScript",
-    "React",
-    "Next.js",
-    "TailwindCSS",
+    "React.JS",
+    "Next.JS",
     "JEST",
-    "Node.js",
-    "Express.js",
-    "Git",
-    "Scrum",
+    "TailwindCSS",
     "HTML",
+    "AWS",
     "CSS",
+    "NoSQL",
     "Python",
     "SQL",
-    "Firebase",
-    "AWS"
+    "MaterialUI",
+    "Node.js",
+    "Git",
+    "Scrum"
   ],
   "computer-skills": [
     "Windows",
@@ -31,14 +31,16 @@
     "Pasjonat sprzętu komputerowego"
   ],
   "soft-skills": [
+    "Debugowanie",
+    "Testy jednostkowe",
     "Krytyczne myślenie",
+    "Cursor AI",
     "Kreatywność",
-    "Praca zespołowa",
     "Dbałość o szczegóły",
-    "Chęć poszerzania wiedzy",
-    "Rozwiązywanie problemów"
+    "Rozwiązywanie problemów",
+    "Chęć poszerzania wiedzy"
   ],
-  "about": "Jestem zaangażowanym Frontend Developerem z silną biegłością w React, popartą 4-letnim doświadczeniem w ciągłym rozwoju frontendowym. Moja przygoda z programowaniem rozpoczęła się 6 lat temu i konsekwentnie doskonaliłem swoje umiejętności, aby stać się biegłym programistą. Jestem pasjonatem dalszego pogłębiania mojej wiedzy w zakresie programowania frontendowego, a moja ciekawość rozciąga się na sferę sprzętu komputerowego i najnowszych osiągnięć w branży",
+  "about": "Lead Frontend Developer z ponad 5-letnim doświadczeniem w React i Next.js. Ekspert w projektowaniu i budowaniu skalowalnych, wydajnych aplikacji od podstaw. Sprawdzona praktyka w przywództwie technicznym, mentoringu młodszych programistów i doprowadzaniu projektów do udanego wdrożenia. Zwolennik czystego kodu, solidnej architektury i nowoczesnych praktyk programistycznych.",
   "education": [
     {
       "school": "Politechnika Gdańska",
@@ -46,143 +48,74 @@
       "field": "Informatyka stosowana w fizyce",
       "start": "2017",
       "end": "2022"
-    },
-    {
-      "school": "Politechnika Gdańska",
-      "degree": "Magister",
-      "field": "Informatyka stosowana w fizyce",
-      "start": "2022",
-      "end": "2024"
     }
   ],
   "experience": [
     {
+      "company": "Teamwork",
+      "position": "Frontend Tech Lead · Get2Germany",
+      "start": "Marzec 2024",
+      "end": "Obecnie",
+      "tech": ["Next.js", "React", "TypeScript", "TanStack Query", "Zustand", "Tailwind CSS", "Node.js", "REST APIs", "Uwierzytelnianie", "i18n", "Git", "Agile/Scrum", "Jest", "Cursor AI"]
+    },
+    {
       "company": "Grid Dynamics",
       "position": "Junior Frontend Developer",
-      "start": "January 2023",
-      "end": "October 2023",
-      "tech": [
-        "React with Redux",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Material UI",
-        "React router",
-        "JEST",
-        "Scrum",
-        "Git",
-        "Figma",
-        "Jira"
-      ]
+      "start": "Styczeń 2023",
+      "end": "Październik 2023",
+      "tech": ["React z Redux", "JavaScript", "HTML5", "CSS3", "Material UI", "React Router", "JEST", "Scrum", "Git", "Figma", "Jira"]
     },
     {
       "company": "Grid Dynamics",
-      "position": "Frontend Developer Intern",
-      "start": "May 2022",
-      "end": "December 2022",
-      "tech": [
-        "React with Redux",
-        "JavaScript",
-        "TypeScript",
-        "HTML",
-        "CSS",
-        "Node.js",
-        "TailwindCSS",
-        "JEST",
-        "Scrum",
-        "Git",
-        "Figma",
-        "AWS"
-      ]
+      "position": "Stażysta Frontend Developer",
+      "start": "Maj 2022",
+      "end": "Grudzień 2022",
+      "tech": ["React z Redux", "JavaScript", "TypeScript", "HTML5", "CSS3", "Node.js", "TailwindCSS", "JEST", "Scrum", "Git", "Figma", "AWS"]
     },
     {
-      "company": "New Ventures",
+      "company": "New Ventures Sp. z o.o.",
       "position": "Junior Web Developer",
-      "start": "October 2020",
-      "end": "November 2022",
+      "start": "Październik 2020",
+      "end": "Listopad 2022",
       "tech": ["JavaScript", "HTML5", "CSS3", "jQuery", "WordPress", "Krpano"]
     }
   ],
   "projects": [
     {
-      "name": "Portfolio Website",
-      "tech": ["React", "Next.js", "TailwindCSS", "TypeScript", "Git"]
+      "name": "Strona portfolio",
+      "tech": ["React", "Next.js", "TailwindCSS", "TypeScript", "Git"],
+      "link": "https://www.danielfijolek.com",
+      "desc": ["Strona portfolio. Więcej informacji o projektach na danielfijolek.com."]
     },
     {
       "name": "Webtail React Boilerplate",
-      "tech": [
-        "Webpack",
-        "Babel",
-        "ESlint",
-        "Prettier",
-        "React",
-        "TypeScript",
-        "TailwindCSS"
-      ],
+      "tech": ["Webpack", "Babel", "ESlint", "Prettier", "React", "TypeScript", "TailwindCSS"],
       "link": "https://github.com/DanielFijolek/webtail-react-boilerplate",
-      "desc": [
-        "Stworzyłem własny React Boilerplate z Webpack i Babel. Jest wstępnie skonfigurowany z Typescript, TailwindCSS, ESlint i Prettier."
-      ]
+      "desc": ["React Boilerplate z Webpack i Babel. Wstępnie skonfigurowany z TypeScript, TailwindCSS, ESlint i Prettier."]
     },
     {
       "name": "Exercise Tracker",
       "tech": ["Node.js", "express", "TypeScript", "SQLite", "RESTFull API"],
       "link": "https://github.com/DanielFijolek/exercise_tracker",
-      "desc": [
-        "Starając się poszerzyć swoje umiejętności w zakresie tworzenia backendu, opracowałem aplikację 'Exercise Tracker' przy użyciu Node.js, Express i TypeScript. Projekt ten był przedsięwzięciem edukacyjnym mającym na celu zdobycie praktycznego doświadczenia z tymi technologiami",
-        "Aplikacja jest zbudowana wokół RESTful API z walidacją danych. Oferuje prosty, ale funkcjonalny interfejs z punktami końcowymi do tworzenia i pobierania danych użytkownika, a także do rejestrowania i pobierania informacji o ćwiczeniach użytkownika",
-        "Kluczowe funkcje aplikacji obejmują:",
-        "- Zarządzanie użytkownikami: Punkty końcowe do tworzenia i pobierania danych użytkownika",
-        "- Rejestrowanie ćwiczeń: Funkcjonalność rejestrowania i pobierania informacji o ćwiczeniach użytkownika"
-      ]
+      "desc": ["Aby poszerzyć umiejętności backendowe, stworzyłem aplikację 'Exercise Tracker' w Node.js, Express i TypeScript. Aplikacja opiera się na RESTful API z walidacją danych i oferuje endpointy do tworzenia i pobierania danych użytkownika oraz rejestrowania i pobierania informacji o ćwiczeniach."]
     },
     {
       "name": "Twitter Clone",
       "tech": ["React", "TypeScript", "ReactQuery", "Axios", "TailwindCSS"],
       "link": "https://github.com/DanielFijolek/twitter_clone",
-      "desc": [
-        "Twitter Clone to osobisty projekt, który zainicjowałem jako plac zabaw do nauki, aby poznać i opanować React Query. To zadanie pozwoliło mi pogłębić moje zrozumienie nowoczesnych technologii tworzenia stron internetowych i ich praktycznych zastosowań. Kluczowe szczegóły projektu obejmują:",
-        "- Wykorzystując stos technologii składający się z React, TypeScript, React Query, Axios i TailwindCSS, miałem na celu zbudowanie responsywnej aplikacji internetowej, która odzwierciedla funkcjonalności popularnej platformy mediów społecznościowych",
-        "- Projekt obejmuje przyjazne dla użytkownika funkcje, takie jak możliwość tworzenia kont użytkowników i bezpiecznego logowania"
-      ]
+      "desc": ["Osobisty projekt służący do nauki i opanowania React Query. Zbudowany w React, TypeScript, React Query, Axios i TailwindCSS, z funkcjami takimi jak tworzenie kont i bezpieczne logowanie."]
     },
     {
-      "name": "Smart sprout cultivation system",
-      "tech": [
-        "React",
-        "Javascript",
-        "React",
-        "Router",
-        "JavaScript",
-        "CSS3",
-        "Firebase",
-        "Scrum"
-      ],
+      "name": "Inteligentny system uprawy kiełków",
+      "tech": ["React", "Javascript", "React Router", "JavaScript", "CSS3", "Firebase", "Scrum"],
       "link": "https://github.com/DanielFijolek/smart_sprout_cultivation",
-      "desc": [
-        "W ramach mojej pracy dyplomowej opracowałem aplikację internetową do sterowania inteligentnym systemem uprawy kiełków. Projekt ten, zlecony przez firmę Nlightnin Production, został zbudowany przy użyciu React i bazy danych Firebase.",
-        "Aplikacja, zaprojektowana przy użyciu React, React Router, JavaScript i CSS3, zapewnia przyjazny dla użytkownika interfejs do zarządzania systemem uprawy. Jest ona podzielona na trzy odrębne sekcje:",
-        "- Zakładka Control: Umożliwia użytkownikom zarządzanie komponentami, takimi jak diody LED, pompy wodne i wentylatory.",
-        "- Zakładka wyświetlania pomiarów: Wyświetla pomiary w czasie rzeczywistym, takie jak wilgotność, temperatura, poziom hałasu i waga gleby.",
-        "- Zakładka Graphical Representation: Umożliwia użytkownikom wizualizację danych za pomocą wykresów, wybierając określone czujniki i zakresy czasowe do analizy.",
-        "Projekt był zarządzany przy użyciu metodologii Scrum, zapewniając jasną komunikację i terminowe dostawy."
-      ]
+      "desc": ["W ramach pracy dyplomowej opracowałem aplikację webową do sterowania inteligentnym systemem uprawy kiełków. Projekt zlecony przez firmę Nlightnin Production, zbudowany w React i Firebase. Aplikacja zaprojektowana w React, React Router, JavaScript i CSS3 zapewnia przyjazny interfejs do zarządzania systemem uprawy. Projekt realizowany metodologią Scrum z jasną komunikacją i terminowymi dostawami."]
     },
     {
-      "name": "Diet controling web application",
-      "tech": [
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "Node.JS",
-        "Express.JS",
-        " MySQL"
-      ],
+      "name": "Aplikacja webowa do kontroli diety",
+      "tech": ["JavaScript", "HTML5", "CSS3", "Node.JS", "Express.JS", "MySQL"],
       "link": "https://github.com/DanielFijolek/diet_web_application",
-      "desc": [
-        "Wykorzystując waniliowy JavaScript na frontendzie i Node.js z Express.js na zapleczu, stworzyłem płynne połączenie między interfejsem użytkownika a serwerem, zapewniając płynny przepływ danych",
-        "Aplikacja zawierała bezpieczny panel administratora z możliwością logowania. Administratorzy mogli efektywnie zarządzać kontami użytkowników, zapewniając integralność i bezpieczeństwo danych."
-      ]
+      "desc": ["Używając vanilla JavaScript po stronie frontendu oraz Node.js z Express.js w backendzie, stworzyłem spójne połączenie interfejsu z serwerem. Aplikacja zawierała bezpieczny panel administratora z logowaniem do zarządzania kontami użytkowników i zapewnienia integralności oraz bezpieczeństwa danych."]
     }
   ]
 }
