@@ -23,6 +23,15 @@ const ExperienceTab = async ({ lang }: Props) => {
               {element.start} - {element.end}
             </p>
           </div>
+          {"desc" in element && element.desc ? (
+            <div className="flex flex-col gap-2">
+              {element.desc.map((text, descIdx) => (
+                <p key={descIdx} className="text-sm leading-relaxed">
+                  {text}
+                </p>
+              ))}
+            </div>
+          ) : null}
           <SkilltagContainer skills={element.tech} skillType="tech" />
         </div>
       ))}

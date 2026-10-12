@@ -5,24 +5,36 @@
     "experience": "Doświadczenie",
     "projects": "Projekty"
   },
-  "title": "Lead Frontend Developer",
+  "title": "Frontend Engineer",
   "tech-skills": [
+    "React.js",
+    "Next.js",
     "TypeScript",
-    "JavaScript",
-    "React.JS",
-    "Next.JS",
-    "JEST",
-    "TailwindCSS",
-    "HTML",
-    "AWS",
-    "CSS",
-    "NoSQL",
-    "Python",
-    "SQL",
-    "MaterialUI",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Material UI",
+    "TanStack Query",
+    "Zustand",
+    "Redux",
+    "REST APIs",
+    "SSE",
+    "Jest",
     "Node.js",
+    "Docker",
+    "AWS",
+    "Hetzner",
+    "NoSQL",
+    "SQL",
     "Git",
-    "Scrum"
+    "Scrum/Agile",
+    "Figma",
+    "Jira",
+    "i18n",
+    "Custom Auth",
+    "Greenfield Development",
+    "Cursor AI"
   ],
   "computer-skills": [
     "Windows",
@@ -31,16 +43,17 @@
     "Pasjonat sprzętu komputerowego"
   ],
   "soft-skills": [
-    "Debugowanie",
     "Testy jednostkowe",
+    "Architektura Clean Code",
+    "Refaktoryzacja kodu legacy",
+    "Debugowanie",
     "Krytyczne myślenie",
-    "Cursor AI",
     "Kreatywność",
     "Dbałość o szczegóły",
     "Rozwiązywanie problemów",
     "Chęć poszerzania wiedzy"
   ],
-  "about": "Lead Frontend Developer z ponad 5-letnim doświadczeniem w React i Next.js. Ekspert w projektowaniu i budowaniu skalowalnych, wydajnych aplikacji od podstaw. Sprawdzona praktyka w przywództwie technicznym, mentoringu młodszych programistów i doprowadzaniu projektów do udanego wdrożenia. Zwolennik czystego kodu, solidnej architektury i nowoczesnych praktyk programistycznych.",
+  "about": "Frontend Engineer z ponad 5-letnim doświadczeniem, specjalizujący się w React i Next.js. Ekspert w architekturze wydajnych aplikacji greenfield i w definiowaniu skalowalnych standardów technicznych od podstaw. Potwierdzone doświadczenie w odpowiedzialności technicznej, ustanawianiu solidnych wzorców architektonicznych oraz usprawnianiu procesów wytwarzania oprogramowania dzięki programowaniu wspieranemu przez AI i własnym narzędziom. Zwolennik systemów type-safe, optymalizacji wydajności i nowoczesnych praktyk CI/CD.",
   "education": [
     {
       "school": "Politechnika Gdańska",
@@ -52,11 +65,20 @@
   ],
   "experience": [
     {
-      "company": "Teamwork",
-      "position": "Frontend Tech Lead · Get2Germany",
+      "company": "Get2Germany",
+      "position": "Founding Frontend Engineer",
       "start": "Marzec 2024",
       "end": "Obecnie",
-      "tech": ["Next.js", "React", "TypeScript", "TanStack Query", "Zustand", "Tailwind CSS", "Node.js", "REST APIs", "Uwierzytelnianie", "i18n", "Git", "Agile/Scrum", "Jest", "Cursor AI"]
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand", "TanStack Query", "REST APIs", "Python", "Django", "Docker", "AWS", "Hetzner", "Traefik", "Prometheus", "Grafana", "Loki", "Cursor AI", "Claude"],
+      "desc": [
+        "Inżynieria produktu 0-to-1: Kierowałem techniczną realizacją greenfieldowego MVP SaaS od pierwszego dnia. Zaprojektowałem skalowalny fundament w Next.js (Tailwind CSS, Zustand, TanStack Query), nastawiony na szybkie wejście na rynek bez utraty długoterminowej utrzymywalności.",
+        "Kształtowanie produktu: Współpracowałem bezpośrednio z założycielami nad roadmapą, przekładając abstrakcyjne cele biznesowe na konkretne zadania inżynierskie i proponując rozwiązania techniczne, które przyciągają wczesnych użytkowników i poprawiają UX.",
+        "Optymalizacja logiki biznesowej: Wykryłem wąskie gardła w kluczowej ścieżce użytkownika i wdrożyłem automatyczną walidację, usprawniając onboarding, konwersję potencjalnych klientów i efektywność platformy.",
+        "Odpowiedzialność techniczna w całym stacku: Działałem w całym stacku, żeby przyspieszyć start produktu. Zdefiniowałem ścisłe kontrakty API, współtworzyłem backend w Pythonie (Django) i dbałem o integralność danych w systemie.",
+        "Infrastruktura i DevOps: Przeprowadziłem oszczędnościową migrację z AWS (EC2, RDS) na VPS Hetzner z Docker Compose. Skonfigurowałem reverse proxy Traefik oraz stack obserwowalności (Prometheus, Grafana, Loki), żeby utrzymać niskie koszty i wysoką dostępność.",
+        "Realizacja wspierana przez AI: Wykorzystałem narzędzia AI (Cursor AI i Claude), żeby zwielokrotnić output i skrócić czas developmentu. W ten sposób kompensowałem mały zespół, utrzymując ścisłe standardy PR i architektury.",
+        "Bezpośredni wpływ na biznes: Zbudowałem główny dashboard współpracy, który pokazał potencjał rynkowy i możliwość przyszłej monetyzacji, udowodnił koncepcję produktu i pomógł pozyskać kluczowe finansowanie od inwestorów."
+      ]
     },
     {
       "company": "Grid Dynamics",

@@ -5,24 +5,36 @@
     "experience": "Erfahrung",
     "projects": "Projekte"
   },
-  "title": "Lead Frontend Entwickler",
+  "title": "Frontend Engineer",
   "tech-skills": [
+    "React.js",
+    "Next.js",
     "TypeScript",
-    "JavaScript",
-    "React.JS",
-    "Next.JS",
-    "JEST",
-    "TailwindCSS",
-    "HTML",
-    "AWS",
-    "CSS",
-    "NoSQL",
-    "Python",
-    "SQL",
-    "MaterialUI",
+    "JavaScript (ES6+)",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Material UI",
+    "TanStack Query",
+    "Zustand",
+    "Redux",
+    "REST APIs",
+    "SSE",
+    "Jest",
     "Node.js",
+    "Docker",
+    "AWS",
+    "Hetzner",
+    "NoSQL",
+    "SQL",
     "Git",
-    "Scrum"
+    "Scrum/Agile",
+    "Figma",
+    "Jira",
+    "i18n",
+    "Custom Auth",
+    "Greenfield Development",
+    "Cursor AI"
   ],
   "computer-skills": [
     "Windows",
@@ -31,16 +43,17 @@
     "Hardware-Enthusiast"
   ],
   "soft-skills": [
-    "Debugging",
     "Unit-Tests",
+    "Clean-Code-Architektur",
+    "Refactoring von Legacy-Code",
+    "Debugging",
     "Kritisches Denken",
-    "Cursor AI",
     "Kreativität",
     "Liebe zum Detail",
     "Problemlösung",
     "Eifer, Wissen zu erweitern"
   ],
-  "about": "Lead Frontend Entwickler mit über 5 Jahren Erfahrung in React und Next.js. Experte für die Konzeption und den Aufbau skalierbarer, leistungsstarker Anwendungen von Grund auf. Bewährte Führungserfahrung, Mentoring von Junioren und erfolgreiche Projektabschlüsse. Überzeugter Befürworter von sauberem Code, robuster Architektur und modernen Entwicklungsmethoden.",
+  "about": "Frontend Engineer mit über 5 Jahren Erfahrung, spezialisiert auf React und Next.js. Experte für die Architektur leistungsstarker Greenfield-Anwendungen und das Festlegen skalierbarer technischer Standards von Grund auf. Nachgewiesene Erfolge in technischer Verantwortung, beim Etablieren robuster Architekturmuster und beim Straffen von Entwicklungsabläufen durch KI-gestütztes Programmieren und eigenes Tooling. Engagierter Befürworter typsicherer Systeme, Performance-Optimierung und moderner CI/CD-Praktiken.",
   "education": [
     {
       "school": "Technische Universität Gdańsk",
@@ -52,11 +65,20 @@
   ],
   "experience": [
     {
-      "company": "Teamwork",
-      "position": "Frontend Tech Lead · Get2Germany",
+      "company": "Get2Germany",
+      "position": "Gründender Frontend Engineer",
       "start": "März 2024",
       "end": "Heute",
-      "tech": ["Next.js", "React", "TypeScript", "TanStack Query", "Zustand", "Tailwind CSS", "Node.js", "REST APIs", "Authentifizierung", "i18n", "Git", "Agile/Scrum", "Jest", "Cursor AI"]
+      "tech": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Zustand", "TanStack Query", "REST APIs", "Python", "Django", "Docker", "AWS", "Hetzner", "Traefik", "Prometheus", "Grafana", "Loki", "Cursor AI", "Claude"],
+      "desc": [
+        "0-to-1 Product Engineering: Technische Umsetzung des Greenfield-SaaS-MVP von Tag eins verantwortet. Eine skalierbare Next.js-Grundlage (Tailwind CSS, Zustand, TanStack Query) aufgebaut, die schnellen Markteintritt und langfristige Wartbarkeit verbindet.",
+        "Strategische Produktgestaltung: Direkt mit den Gründern die Produkt-Roadmap geschärft, abstrakte Geschäftsziele in umsetzbare Engineering-Aufgaben übersetzt und technische Lösungen vorgeschlagen, die Early Adopter gewinnen und die UX verbessern.",
+        "Optimierung der Business-Logik: Engpässe in der zentralen User Journey erkannt und automatisierte Validierung eingeführt, um das Onboarding zu straffen und Conversion sowie Effizienz der Plattform zu steigern.",
+        "Technische Verantwortung über den gesamten Stack: Strikte API-Verträge definiert, am Python-(Django-)Backend mitgewirkt und die Datenintegrität im System sichergestellt, um den Produktlaunch zu beschleunigen.",
+        "Infrastruktur und DevOps: Einen strategischen, kostensparenden Wechsel von AWS (EC2, RDS) auf einen Hetzner-VPS mit Docker Compose umgesetzt. Traefik als Reverse Proxy sowie Observability (Prometheus, Grafana, Loki) eingerichtet, um die Fixkosten niedrig und die Verfügbarkeit hoch zu halten.",
+        "KI-beschleunigte Umsetzung: Mit KI-gestützten Tools (Cursor AI und Claude) den Output deutlich gesteigert und die Entwicklungszeit verkürzt. So die geringe Teamgröße ausgeglichen und gleichzeitig strenge PR- und Architekturstandards durchgesetzt.",
+        "Direkter Geschäftseinfluss: Das zentrale kollaborative Dashboard der Plattform gebaut, um Marktfähigkeit und Monetarisierungspotenzial zu zeigen, das Produktkonzept zu belegen und die entscheidende Investorenfinanzierung zu sichern."
+      ]
     },
     {
       "company": "Grid Dynamics",
